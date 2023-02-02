@@ -1,0 +1,23 @@
+:root {
+  --blanco:#ffffff;
+}
+
+html{ box-sizing: border-box;
+    font-size: 62.5%;
+    }
+
+    *, *:before, *:after { 
+        box-sizing: inherit;
+      }
+     
+      body{
+        background-color: rgba(213,225,239,255);
+        font-size: 16px;
+      }
+      @media (min-width: 768px) {
+        .recuadro {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            column-gap: 1rem;
+        }
+    }
